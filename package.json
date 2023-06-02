@@ -1,0 +1,36 @@
+{
+  "name": "hermes",
+  "version": "0.1.0",
+  "description": "hermes checkout workflow",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyrosec/hermes.git"
+  },
+  "keywords": [
+    "paypal",
+    "express",
+    "checkout",
+    "hermes"
+  ],
+  "author": "pyrosec",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pyrosec/hermes/issues"
+  },
+  "homepage": "https://github.com/pyrosec/hermes#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "fetch-cookie": "^2.1.0",
+    "querystring": "^0.2.1",
+    "user-agents": "^1.0.1398",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "typescript": "^5.1.3"
+  }
+}
